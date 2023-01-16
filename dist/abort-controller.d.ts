@@ -1,9 +1,9 @@
 import { EventTarget } from "event-target-shim"
 
-type Events = {
+export type Events = {
     abort: any
 }
-type EventAttributes = {
+export type EventAttributes = {
     onabort: any
 }
 /**
